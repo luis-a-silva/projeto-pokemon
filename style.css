@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#ataque-inimigo{
+    text-align: right;
+    letter-spacing: 0;
+    color: red;
+}
+
+#ataque-pokemon{
+    text-align: left;
+    letter-spacing: 0;
+    color: green;
+}
+
+#menu-inicial{
+    backdrop-filter: blur(5px);
+    border: 1px solid grey;
+    border-radius: 55px;
+    top: 130px;
+    height: 400px;
+    width: 520px;
+    padding: 22px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#background{
+    top: 0;
+    width: 100%;
+    height: 773px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#background-battle{
+    top: 0;
+    width: 100%;
+    height: 503px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#logo{
+    width: 505px;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 75px;
+}
+
+#iniciar{
+    background-image: linear-gradient(180deg, rgba(217, 217, 217, 1) 40%,rgba(114, 114, 114, 1) 60%);
+    font-size: 3em;
+    padding: 2%;
+    font-family: 'Pixelify Sans', sans-serif;
+    margin-top: 45px;
+    margin-left: 75px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#iniciar:hover{
+    background-image: linear-gradient(180deg, rgba(114, 114, 114, 1) 40%,rgb(71, 71, 71) 60%);
+}
+.botao-acao{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+}
+
+#interface{
+    position: relative;
+}
+
+#campo{
+    border:2px solid grey;
+    padding: 1%;
+    display: block;
+    width: 450px;
+}
