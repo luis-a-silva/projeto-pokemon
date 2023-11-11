@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,32 +10,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
     <title>Batalha Pokémon!</title>
 </head>
+
 <body>
     <div id="tela-inicial">
-        <img id="background" src="img/background.gif" alt="imagem de fundo">
+        <img class="background" src="img/background.gif" alt="imagem de fundo">
         <div id="menu-inicial">
-            <img id="logo"  src="img/image_2.png" alt="logo pokémon">
+            <img id="logo" src="img/image_2.png" alt="logo pokémon">
             <button id="iniciar" onclick="sortearInimigo()">Iniciar Batalha!</button>
         </div>
     </div>
-    
+
     <div id="tela-jogo">
-        <img id="background-battle" src="img/image_5.png" alt="imagem de fundo">
-        
+        <img id="pikachu" src="img/pikachu-trainer.gif" alt="pikachu">
+        <img id="pokemon-inimigo" alt="pokemon inimigo">
+        <img class="background" src="img/background2.jpg" alt="imagem fundo">
+        <img id="background-battle" src="img/battlefield2.png" alt="imagem de fundo">
         <div id="interface">
-            <h1>Batalha Pokémon!</h1>
-        <div id="inimigo">
-            <p>O pokémon inimigo aparecerá aqui!</p>
-        </div>
-        <br>
+            <div id="inimigo">
+                <p></p>
+            </div>
+            <br>
             <button id="atacar" class="botao-acao" onclick="atacar()">Atacar</button>
-            <button id="curar" class="botao-acao" onclick="curar()">Curar</button>
-            <button id="escapar" class="botao-acao" onclick="escapar()">Escapar</button>          
+            <button id="curar" class="botao-acao" onclick="curar()">Curar (3)</button>
+            <button id="escapar" class="botao-acao" onclick="escapar()">Escapar</button>
+            <h4 id="vida-pokemon">Vida atual 25 HP</h4>
             <div id="campo">
-            <h4 id="vida-pokemon">Vida atual = 50</h4>
+                <p></p>
             </div>
         </div>
     </div>
     <script src="main.js"></script>
 </body>
+
 </html>
